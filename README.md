@@ -1,7 +1,7 @@
 # code-refactor
-The purpose of this project was to improve accessibility by ensuring it meets accessibility standards and fixing any items or code that did not meet those standards at the onset of the project.This is an important consideration for web developers as websites that do not meet accessibility standards do not render properly (if at all) for disabled users. This opens your client/company up to potential litigation for failing to meet these standards and offer a fully accessible site to disabled users. The site meets with specified accessibility standards as a result of this project.
+The purpose of this project was to improve accessibility by ensuring it meets accessibility standards and fixing any items that did not meet those standards at the onset of the project. Failure to meet accessibility standards  opens the company up to potential litigation for failing to provide equal accessibility of the site to disabled users. The site meets with specified accessibility standards as a result of this project.
 
- In addition to meeting accessibility standards; the Site, site's HTML and CSS were reviewed to determine if there were any areas of improvement to support the accessibility as well as functionality of the site. As a result of this review several improvements were made that improved functionality and streamlined the code. The complete changes are noted below.
+ In addition to meeting accessibility standards; the website, HTML and CSS were also reviewed to determine if there were any areas of improvement to support the accessibility as well as functionality of the site. In addition to fixing any accessibility issues, this review yeilded several improvements that improved functionality and streamlined the code. The complete changes are noted below.
 
 Issue | Solution | Result
 ------------- | ------------ | -------------
