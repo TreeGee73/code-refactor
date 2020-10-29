@@ -134,6 +134,18 @@ p {
     max-width: 150px;
 }
 
+/* consolidated individual classes into one class for the purpose of applying format to the SEO, ORM, and SMM content detail blocks. */
+
+.content-detail {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +172,15 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
 
+/* consolidated individual classes into one class for the purpose of applying format to the SEO, ORM, and SMM content detail images. */
+
+.content-detail img {
+    max-height: 200px;
+}
+
+/*
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +192,16 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+*/
 
+/* consolidated individual classes into one class for the purpose of applying format to the SEO, ORM, and SMM content detail images. */
+
+.content-detail h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,6 +216,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
 .footer {
     padding: 30px;
