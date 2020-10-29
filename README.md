@@ -22,3 +22,4 @@ Issue | Solution | Result
 ------------- | ------------ | -------------
 Individual classes .search-engine-optimization, .online-reputation-management, & .social-media-marketing for the div, img, & h2 tags with identical styling | Consolidate code for to apply to the tag only based on the container's div class of .content | Reduced 9 styles classes to 3 styles applied based on tag
 Individual classes .benefit-lead, .benefit-brand, & .benefit-cost for the div, img, & h3 tags with identical styling | Consolidate code for to apply to the tag only based on the container's div class of .benefits | Reduced 9 styles classes to 3 styles applied based on tag
+CSS styles flow did not follow the sturcture of the HTML elements | Group CSS styles according to their place in the HTML | CSS styles now appear/flow according to the structure of the HTML and how/when they should render
