@@ -24,7 +24,8 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+/* Converted all header divs to nav to apply styles to nav element within the header */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -65,11 +66,9 @@ p {
     margin-left: 20px;
 }
 
-/* consolidated identical styles that were individual classes into a single style based on the tag */
-/* started with three classes for each div, img, & h2 tag w/in the content class */
-/* now have just one style for all div, img, & h2 tags w/in the content class */
-
-.content div {
+/* Consolidated identical styles that were individual classes into a single style based on the article element, eliminating the div tag */
+/* Three identical classes for the purpose of styling the individual section divs replaced with one style element for application to the article elements */
+.article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -78,10 +77,20 @@ p {
     color: #ffffff;
 }
 
-.content img {
+/* Consolidated identical styles that were individual classes applied to the h2 tags into a single style based on the article element and h2 tag */
+/* Three identical classes for the purpose of styling the individual section h2s replaced with one style element for application to the h2 tags w/in the article elements */
+.article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Consolidated identical styles that were individual classes applied to the img tags into a single style based on the article element and img tag */
+/* Three identical classes for the purpose of styling the individual section imgs replaced with one style element for application to the img tags w/in the article elements */
+.article img {
     max-height: 200px;
 }
 
+/* These classes are applied to the images w/in the article elements. Moved them up to group them with other applicable article element related styles */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -92,11 +101,8 @@ p {
     margin-left: 25px;
 }
 
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Consolidated identical styles that were individual classes into a single style based on the aside element, eliminating the div tag */
+/* Three identical classes for the purpose of styling the individual section divs replaced with one style element for application to the aside element */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -106,22 +112,20 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-/* consolidated identical styles that were individual classes into a single style based on the tag */
-/* started with three classes for each div, img, & h3 tag w/in the content class */
-/* now have just one style for all div, img, & h3 tags w/in the content class */
-
-.benefits div {
-    margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Consolidated identical styles that were individual classes applied to the h3 tags into a single style based on the aside element and h3 tag */
+/* Three identical classes for the purpose of styling the individual section h3s replaced with one style element for application to the h3 tags w/in the aside element */
+/* For integrity of design, applied an additional top margin to retain original spacing requirements */
 .benefits h3 {
+    margin-top: 32px;
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Consolidated identical styles that were individual classes applied to the img tags into a single style based on the aside element and img tag */
+/* Three identical classes for the purpose of styling the individual section imgs replaced with one style element for application to the img tags w/in the aside element */
 .benefits img {
     display: block;
     margin: 10px auto;
