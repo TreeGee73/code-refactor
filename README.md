@@ -1,3 +1,14 @@
+## 📚 Educational Project
+
+This project was completed as part of [University of Arizona Full-Stack Web Development Bootcamp] 
+to demonstrate understanding of [specific concepts like: REST APIs, MongoDB, React state management, etc.].
+
+**Status:** Archived - No longer under active development
+**Purpose:** Portfolio demonstration of technical concepts
+**Completed:** October 2020
+
+---
+
 # code-refactor
 The purpose of this project was to improve accessibility by ensuring it meets accessibility standards and fixing any items that did not meet those standards at the onset of the project. Failure to meet accessibility standards  opens the company up to potential litigation for failing to provide equal accessibility of the site to disabled users. The site meets with specified accessibility standards as a result of this project.
 
